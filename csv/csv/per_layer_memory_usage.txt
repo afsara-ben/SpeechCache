@@ -1,0 +1,65 @@
+Element type                                            Size  Used MEM
+-------------------------------------------------------------------------------
+Storage on cpu
+intent_layers.0.weight_ih_l0                      (384, 256)   384.00K
+intent_layers.0.weight_hh_l0                      (384, 128)   192.00K
+intent_layers.0.bias_ih_l0                            (384,)     1.50K
+intent_layers.0.bias_hh_l0                            (384,)     1.50K
+intent_layers.0.weight_ih_l0_reverse              (384, 256)   384.00K
+intent_layers.0.weight_hh_l0_reverse              (384, 128)   192.00K
+intent_layers.0.bias_ih_l0_reverse                    (384,)     1.50K
+intent_layers.0.bias_hh_l0_reverse                    (384,)     1.50K
+intent_layers.4.weight                             (24, 256)    24.00K
+intent_layers.4.bias                                   (24,)   512.00B		#intent layer - 1.18 mB
+Tensor0                                             (57585,)   225.00K
+Tensor1(->Tensor0)                                (1, 57585)     0.00B
+Tensor2                                               (1, 3)   512.00B
+pretrained_model.phoneme_linear.weight             (42, 256)    42.00K
+pretrained_model.phoneme_linear.bias                   (42,)   512.00B
+pretrained_model.word_linear.weight             (10000, 256)     9.77M		#large mem
+pretrained_model.word_linear.bias                   (10000,)    39.50K
+pretrained_model.phoneme_layers.0.filt_b1               (80,)     1.00K
+pretrained_model.phoneme_layers.0.filt_band               (80,)     1.00K
+pretrained_model.phoneme_layers.5.weight         (60, 80, 5)    94.00K
+pretrained_model.phoneme_layers.5.bias                 (60,)   512.00B
+pretrained_model.phoneme_layers.9.weight         (60, 60, 5)    70.50K
+pretrained_model.phoneme_layers.9.bias                 (60,)   512.00B
+pretrained_model.phoneme_layers.14.weight_ih_l0           (384, 60)    90.00K
+pretrained_model.phoneme_layers.14.weight_hh_l0          (384, 128)   192.00K
+pretrained_model.phoneme_layers.14.bias_ih_l0              (384,)     1.50K
+pretrained_model.phoneme_layers.14.bias_hh_l0              (384,)     1.50K
+pretrained_model.phoneme_layers.14.weight_ih_l0_reverse           (384, 60)    90.00K
+pretrained_model.phoneme_layers.14.weight_hh_l0_reverse          (384, 128)   192.00K
+pretrained_model.phoneme_layers.14.bias_ih_l0_reverse              (384,)     1.50K
+pretrained_model.phoneme_layers.14.bias_hh_l0_reverse              (384,)     1.50K
+pretrained_model.phoneme_layers.18.weight_ih_l0          (384, 256)   384.00K
+pretrained_model.phoneme_layers.18.weight_hh_l0          (384, 128)   192.00K
+pretrained_model.phoneme_layers.18.bias_ih_l0              (384,)     1.50K
+pretrained_model.phoneme_layers.18.bias_hh_l0              (384,)     1.50K
+pretrained_model.phoneme_layers.18.weight_ih_l0_reverse          (384, 256)   384.00K
+pretrained_model.phoneme_layers.18.weight_hh_l0_reverse          (384, 128)   192.00K
+pretrained_model.phoneme_layers.18.bias_ih_l0_reverse              (384,)     1.50K
+pretrained_model.phoneme_layers.18.bias_hh_l0_reverse              (384,)     1.50K	#phoneme layer = 1.692 mB
+pretrained_model.word_layers.0.weight_ih_l0          (384, 256)   384.00K
+pretrained_model.word_layers.0.weight_hh_l0          (384, 128)   192.00K
+pretrained_model.word_layers.0.bias_ih_l0              (384,)     1.50K
+pretrained_model.word_layers.0.bias_hh_l0              (384,)     1.50K
+pretrained_model.word_layers.0.weight_ih_l0_reverse          (384, 256)   384.00K
+pretrained_model.word_layers.0.weight_hh_l0_reverse          (384, 128)   192.00K
+pretrained_model.word_layers.0.bias_ih_l0_reverse              (384,)     1.50K
+pretrained_model.word_layers.0.bias_hh_l0_reverse              (384,)     1.50K
+pretrained_model.word_layers.4.weight_ih_l0          (384, 256)   384.00K
+pretrained_model.word_layers.4.weight_hh_l0          (384, 128)   192.00K
+pretrained_model.word_layers.4.bias_ih_l0              (384,)     1.50K
+pretrained_model.word_layers.4.bias_hh_l0              (384,)     1.50K
+pretrained_model.word_layers.4.weight_ih_l0_reverse          (384, 256)   384.00K
+pretrained_model.word_layers.4.weight_hh_l0_reverse          (384, 128)   192.00K
+pretrained_model.word_layers.4.bias_ih_l0_reverse              (384,)     1.50K
+pretrained_model.word_layers.4.bias_hh_l0_reverse              (384,)     1.50K 	#word layer = 2.316 mB
+Tensor3                                                 (1,)   512.00B
+-------------------------------------------------------------------------------
+Total Tensors: 4076128  Used Memory: 15.33M
+-------------------------------------------------------------------------------
+
+
+*the (->) indicates the re-use of the same storage back-end outputs
