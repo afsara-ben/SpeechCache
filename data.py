@@ -199,7 +199,7 @@ def get_SLU_datasets(config):
 		valid_df = pd.read_csv(os.path.join(base_path, "data", "valid_data_seq2seq.csv"))
 		test_df = pd.read_csv(os.path.join(base_path, "data", "test_data_seq2seq.csv"))
 
-	print("xzl: config.seq2seq", config.seq2seq)
+	# print("xzl: config.seq2seq", config.seq2seq)
 	
 	if not config.seq2seq:
 		# Get list of slots
@@ -212,9 +212,9 @@ def get_SLU_datasets(config):
 				Sy_intent[slot][value] = idx			# xzl: Sy_intent like a hashtable, from slot/value strings to idx. later reverse lookup will be used
 			values_per_slot.append(len(slot_values))
 		config.values_per_slot = values_per_slot		# xzl: a list of integers...
-		print("xzl values_per_slot", values_per_slot)
+		# print("xzl values_per_slot", values_per_slot)
 		config.Sy_intent = Sy_intent
-		print("xzl Sy_intent", Sy_intent)
+		# print("xzl Sy_intent", Sy_intent)
 	else: #seq2seq
 		import string		# xzl: inc possible values & printable chars (for asr target?)
 		all_chars = "".join(train_df.loc[i]["semantics"] for i in range(len(train_df))) + string.printable # all printable chars; TODO: unicode?
@@ -223,7 +223,7 @@ def get_SLU_datasets(config):
 		Sy_intent += all_chars
 		Sy_intent.append("<eos>")
 		config.Sy_intent = Sy_intent
-		print("xzl: seq2seq, Sy_intent=", Sy_intent)
+		# print("xzl: seq2seq, Sy_intent=", Sy_intent)
 
 	# If certain phrases are specified, only use those phrases
 	if config.train_wording_path is not None:
