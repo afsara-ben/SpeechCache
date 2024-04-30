@@ -1,4 +1,4 @@
-# Leveraging cache to enable SLU on tiny devices
+# SpeechCache: Speech Understanding on Tiny Devices with A Learning Cache
 
 This repository contains the source code for Mobisys'24 paper *Leveraging cache to enable SLU on tiny devices by authors* by Afsara Benazir, Zhiming Xu, and Felix Xiaozhu Lin.
 
