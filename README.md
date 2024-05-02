@@ -23,6 +23,10 @@ python3 slurp_test.py --model_dir <your_model_path> --wav_path <your_wav_path>
 Optional: To play with the optimizations mentioned in paper, please set `--dynamic True` for doing inference with dynamic threshold (c.f pg7 of manuscript).
 set `-in_domain True`` for using a pretrained slurp model (c.f pg7 of manuscript)
 
+## Models
+
+All finetuned SLURP-C models used in the experiment can be found at [here](https://zenodo.org/records/11106484?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI0YjExMDc0LWVmMDUtNDFjOC1hNGQxLTcwZmMzZTg2ZTczMiIsImRhdGEiOnt9LCJyYW5kb20iOiJhMWVkY2VmZTJmYjI0NjRkOTYxNDE1ZmEyZWM1ZDY4MyJ9.ifDZQ3TbMcesQ0x4EJIHtqc4yjpo0OrsGfsl7CdxSc1PUzE_lBIHz2zkHPom1VvX5JaX6NZTAzSYBgacwJYCrA)
+
 ## Reference
 ```bibtex
 @article{benazir2023leveraging,
