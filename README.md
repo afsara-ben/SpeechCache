@@ -27,6 +27,8 @@ set `-in_domain True`` for using a pretrained slurp model (c.f pg7 of manuscript
 
 All finetuned SLURP-C models used in the experiment can be found at [here](https://zenodo.org/records/11106484?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI0YjExMDc0LWVmMDUtNDFjOC1hNGQxLTcwZmMzZTg2ZTczMiIsImRhdGEiOnt9LCJyYW5kb20iOiJhMWVkY2VmZTJmYjI0NjRkOTYxNDE1ZmEyZWM1ZDY4MyJ9.ifDZQ3TbMcesQ0x4EJIHtqc4yjpo0OrsGfsl7CdxSc1PUzE_lBIHz2zkHPom1VvX5JaX6NZTAzSYBgacwJYCrA)
 
+Models for user study (in the wild evaluation) are [here](https://zenodo.org/records/11106505?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjA3Y2NkNjhmLTAwOGItNDU3Zi05MDg3LWVkMDI3YjE4MTAxOCIsImRhdGEiOnt9LCJyYW5kb20iOiIxYzRhYTkzZTdjZTk5ZjQ3MWZiY2E5M2Y2NTczYmQ4YiJ9.AedUn184TwA0zyAJXSTajOsAiTmHsu3CbyD0imJGeWOiH7UO0aVjb-0RAkZX9_nAhVteASBdHFapd8mJr_TgqA)
+
 ## Reference
 ```bibtex
 @article{benazir2023leveraging,
