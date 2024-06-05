@@ -1,3 +1,7 @@
+
+
+
+
 # SpeechCache: Speech Understanding on Tiny Devices with A Learning Cache
 
 This repository contains the source code for Mobisys'24 paper *Leveraging cache to enable SLU on tiny devices by authors* by Afsara Benazir, Zhiming Xu, and Felix Xiaozhu Lin.
@@ -29,6 +33,9 @@ All finetuned SLURP-C models used in the experiment can be found at [here](https
 
 Models for user study (in the wild evaluation) are [here](https://zenodo.org/records/11106505?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjA3Y2NkNjhmLTAwOGItNDU3Zi05MDg3LWVkMDI3YjE4MTAxOCIsImRhdGEiOnt9LCJyYW5kb20iOiIxYzRhYTkzZTdjZTk5ZjQ3MWZiY2E5M2Y2NTczYmQ4YiJ9.AedUn184TwA0zyAJXSTajOsAiTmHsu3CbyD0imJGeWOiH7UO0aVjb-0RAkZX9_nAhVteASBdHFapd8mJr_TgqA)
 
+## Demo
+
+https://github.com/afsara-ben/SpeechCache/assets/44926095/b0bb85ff-046f-49e5-b4c5-e14da186aad7
 ## Reference
 ```bibtex
 @article{benazir2023leveraging,
