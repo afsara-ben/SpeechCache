@@ -1,0 +1,896 @@
+2025-07-17 11:52:54,006 [INFO] Activator:176 - 
+
+
+2025-07-17 11:52:54,006 [INFO] Activator:177 - !SESSION log4j initialized
+2025-07-17 11:52:59,607 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-07-17 11:52:59,915 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:52:59,916 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:52:59,917 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:52:59,920 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:52:59,922 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:52:59,923 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:53:01,791 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:53:01,792 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:53:01,792 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:53:02,287 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849
+2025-07-17 11:53:02,306 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/mcu/
+2025-07-17 11:53:02,306 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/boardmanager/
+2025-07-17 11:53:02,307 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/mcufinder/images/
+2025-07-17 11:53:02,319 [INFO] ApiDb:250 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/
+2025-07-17 11:53:02,320 [INFO] DbMcusAds:125 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/
+2025-07-17 11:53:02,322 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-07-17 11:53:02,456 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2025-07-17 11:53:02,573 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/mcu/
+2025-07-17 11:53:02,573 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/boardmanager/
+2025-07-17 11:53:02,573 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/mcufinder/images/
+2025-07-17 11:53:02,573 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,574 [INFO] ApiDb:250 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/
+2025-07-17 11:53:02,574 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,574 [INFO] DbMcusAds:125 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/
+2025-07-17 11:53:02,574 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,574 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,574 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-07-17 11:53:02,655 [INFO] MainPanel:262 - HeapMemory: 268435456
+2025-07-17 11:53:02,762 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/mcu/
+2025-07-17 11:53:02,763 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/boardmanager/
+2025-07-17 11:53:02,763 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/mcufinder/images/
+2025-07-17 11:53:02,763 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,763 [INFO] ApiDb:250 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/
+2025-07-17 11:53:02,763 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,764 [INFO] DbMcusAds:125 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/
+2025-07-17 11:53:02,764 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,764 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\afsar\.stmcufinder\plugins\mcufinder/ => C:\Users\afsar\.stmcufinder\plugins\mcufinder
+2025-07-17 11:53:02,764 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\afsar\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-07-17 11:53:02,785 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849
+2025-07-17 11:53:02,786 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2025-07-17 11:53:02,788 [INFO] PluginManage:310 - Check plugin analytics
+2025-07-17 11:53:02,956 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: STM32CubeMX.6.9.1
+2025-07-17 11:53:02,957 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: STMicroelectronics.X-CUBE-AI.8.1.0,STMicroelectronics.X-CUBE-AI.7.3.0,STMicroelectronics.X-CUBE-AI.8.0.1,STMicroelectronics.X-CUBE-AI.8.0.0,STMicroelectronics.X-CUBE-AI.3.3.0,STMicroelectronics.X-CUBE-AI.3.4.0
+2025-07-17 11:53:02,957 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: FW.F7.1.17.0,FW.H7.1.11.0
+2025-07-17 11:53:02,963 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2025-07-17 11:53:02,963 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:53:02,964 [INFO] PluginManage:310 - Check plugin cadmodel
+2025-07-17 11:53:02,964 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:53:02,965 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 11:53:02,986 [INFO] CADModel:105 - Init CAD model plugin
+2025-07-17 11:53:02,986 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2025-07-17 11:53:02,986 [INFO] PluginManage:310 - Check plugin clock
+2025-07-17 11:53:03,006 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2025-07-17 11:53:03,006 [INFO] PluginManage:310 - Check plugin ddr
+2025-07-17 11:53:03,008 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2025-07-17 11:53:03,008 [INFO] PluginManage:310 - Check plugin filemanager
+2025-07-17 11:53:03,127 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2025-07-17 11:53:03,127 [INFO] PluginManage:310 - Check plugin ipmanager
+2025-07-17 11:53:03,136 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2025-07-17 11:53:03,137 [INFO] PluginManage:310 - Check plugin lpbam
+2025-07-17 11:53:03,156 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2025-07-17 11:53:03,156 [INFO] PluginManage:310 - Check plugin memorymap
+2025-07-17 11:53:03,182 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2025-07-17 11:53:03,182 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2025-07-17 11:53:03,202 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2025-07-17 11:53:03,202 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2025-07-17 11:53:03,300 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2025-07-17 11:53:03,426 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2025-07-17 11:53:03,426 [INFO] PluginManage:310 - Check plugin power
+2025-07-17 11:53:03,451 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2025-07-17 11:53:03,451 [INFO] PluginManage:310 - Check plugin projectmanager
+2025-07-17 11:53:03,467 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2025-07-17 11:53:03,467 [INFO] PluginManage:310 - Check plugin thirdparty
+2025-07-17 11:53:03,764 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2025-07-17 11:53:03,764 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2025-07-17 11:53:03,764 [INFO] PluginManage:310 - Check plugin tools
+2025-07-17 11:53:03,764 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2025-07-17 11:53:03,764 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2025-07-17 11:53:03,797 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2025-07-17 11:53:03,798 [INFO] PluginManage:310 - Check plugin tutovideos
+2025-07-17 11:53:04,012 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2025-07-17 11:53:04,013 [INFO] PluginManage:310 - Check plugin updater
+2025-07-17 11:53:04,028 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2025-07-17 11:53:04,028 [INFO] PluginManage:310 - Check plugin userauth
+2025-07-17 11:53:04,034 [INFO] UserAuth:113 - Init User Auth plugin
+2025-07-17 11:53:04,034 [INFO] PluginManage:359 - Loaded plugin userauth (category:base,tabindex:14)
+2025-07-17 11:53:04,034 [INFO] PluginManage:283 - PluginManage : Loaded plugins [17]
+2025-07-17 11:53:04,256 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2025-07-17 11:53:04,378 [INFO] CADModel:165 - CPN selected for project level
+2025-07-17 11:53:04,378 [INFO] CADModel:114 - Register for checkConnection events
+2025-07-17 11:53:04,405 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,406 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2025-07-17 11:53:04,444 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,444 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2025-07-17 11:53:04,483 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,484 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2025-07-17 11:53:04,506 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,507 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2025-07-17 11:53:04,536 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,536 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2025-07-17 11:53:04,571 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,571 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2025-07-17 11:53:04,591 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,592 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2025-07-17 11:53:04,656 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,656 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2025-07-17 11:53:04,706 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,706 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2025-07-17 11:53:04,804 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,805 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2025-07-17 11:53:04,825 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,826 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2025-07-17 11:53:04,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,855 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2025-07-17 11:53:04,964 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:04,965 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2025-07-17 11:53:05,085 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,085 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2025-07-17 11:53:05,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,098 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2025-07-17 11:53:05,186 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,186 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2025-07-17 11:53:05,220 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,220 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2025-07-17 11:53:05,271 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,272 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2025-07-17 11:53:05,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,315 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2025-07-17 11:53:05,358 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,358 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2025-07-17 11:53:05,460 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,460 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2025-07-17 11:53:05,555 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,555 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2025-07-17 11:53:05,592 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,592 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2025-07-17 11:53:05,628 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,628 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2025-07-17 11:53:05,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,643 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2025-07-17 11:53:05,655 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,656 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2025-07-17 11:53:05,691 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,692 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2025-07-17 11:53:05,749 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,749 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2025-07-17 11:53:05,787 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,787 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2025-07-17 11:53:05,801 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,803 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2025-07-17 11:53:05,825 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,826 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2025-07-17 11:53:05,839 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,839 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2025-07-17 11:53:05,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,892 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2025-07-17 11:53:05,928 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,928 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2025-07-17 11:53:05,979 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:05,979 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2025-07-17 11:53:06,002 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,002 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2025-07-17 11:53:06,052 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,052 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2025-07-17 11:53:06,073 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,073 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2025-07-17 11:53:06,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,095 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2025-07-17 11:53:06,115 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,115 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2025-07-17 11:53:06,138 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,138 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2025-07-17 11:53:06,186 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,187 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2025-07-17 11:53:06,238 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 11:53:06,238 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2025-07-17 11:53:06,358 [INFO] CADModel:165 - CPN selected for project level
+2025-07-17 11:53:06,359 [INFO] CADModel:114 - Register for checkConnection events
+2025-07-17 11:53:06,359 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,359 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-07-17 11:53:06,495 [INFO] CADModel:165 - CPN selected for project level
+2025-07-17 11:53:06,495 [INFO] CADModel:114 - Register for checkConnection events
+2025-07-17 11:53:06,496 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,496 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-07-17 11:53:06,499 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,623 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,636 [INFO] DbMcusAds:53 - JSON generation date=Tue Mar 07 03:50:55 EST 2023 (1678179055335)
+2025-07-17 11:53:06,637 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,732 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-07-17 11:53:06,766 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2025-07-17 11:53:06,828 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,830 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,830 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,830 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-07-17 11:53:06,831 [FATAL] Updater:308 - Updater called before beeing initialized
+2025-07-17 11:53:06,902 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2025-07-17 11:53:06,914 [INFO] Updater:1056 - Updater Version found : 6.9.1
+2025-07-17 11:53:06,932 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849
+2025-07-17 11:53:07,128 [ERROR] ServerAccessManage:1146 - Warning during Server Connection :  Unknown host sw-center.st.com
+2025-07-17 11:53:07,132 [INFO] MainUpdater:2868 - connection check result : 22
+2025-07-17 11:53:07,133 [INFO] MainUpdater:285 - Updater Check For Update Now.
+2025-07-17 11:53:07,133 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2025-07-17 11:53:07,153 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2025-07-17 11:53:07,409 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-07-17 11:53:09,924 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2025-07-17 11:53:09,941 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.23.0
+2025-07-17 11:53:10,010 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2025-07-17 11:53:10,038 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.2
+2025-07-17 11:53:10,057 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.2
+2025-07-17 11:53:10,077 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2025-07-17 11:53:10,103 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.7.0.0
+2025-07-17 11:53:10,121 [WARN] PackLoader:240 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.3.0
+2025-07-17 11:53:10,136 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.22.0
+2025-07-17 11:53:10,149 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.22.1
+2025-07-17 11:53:10,163 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-SMARTAG2.1.2.0
+2025-07-17 11:53:10,187 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-07-17 11:53:10,187 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-07-17 11:53:10,188 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-07-17 11:53:10,189 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-07-17 11:53:10,190 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-07-17 11:53:10,193 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.2.0.0
+2025-07-17 11:53:10,210 [WARN] PackLoader:240 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2025-07-17 11:53:10,224 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2025-07-17 11:53:10,239 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2025-07-17 11:53:10,271 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2025-07-17 11:53:10,292 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2025-07-17 11:53:10,312 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.3.0.0
+2025-07-17 11:53:10,329 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2025-07-17 11:53:10,351 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.5.1.0
+2025-07-17 11:53:10,399 [WARN] PackLoader:240 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2025-07-17 11:53:10,454 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2025-07-17 11:53:10,488 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2025-07-17 11:53:10,507 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.6.3
+2025-07-17 11:53:10,541 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.2.0.0
+2025-07-17 11:53:10,605 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.6.0
+2025-07-17 11:53:10,805 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.2.0
+2025-07-17 11:53:10,823 [WARN] PackLoader:240 - Cannot read IP mode file for ITTIA_DB.I-CUBE-ITTIADB.8.8.0
+2025-07-17 11:53:10,841 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2025-07-17 11:53:10,875 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:10,875 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:10,878 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2025-07-17 11:53:10,879 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:10,879 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:10,880 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:10,880 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:10,880 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:10,898 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.1
+2025-07-17 11:53:10,916 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC6.3.0.0
+2025-07-17 11:53:10,933 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2025-07-17 11:53:10,952 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.1.0
+2025-07-17 11:53:11,117 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : LAN8742 Phy interface Condition cause : null
+2025-07-17 11:53:11,118 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.2.0.0
+2025-07-17 11:53:11,119 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2025-07-17 11:53:11,120 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2025-07-17 11:53:11,120 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2025-07-17 11:53:11,142 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2025-07-17 11:53:11,157 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2025-07-17 11:53:11,186 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:11,186 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:11,188 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.2.0.0
+2025-07-17 11:53:11,188 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:11,188 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:11,189 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:11,189 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:11,189 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2025-07-17 11:53:11,205 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2025-07-17 11:53:11,223 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.1
+2025-07-17 11:53:11,305 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2025-07-17 11:53:11,330 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.1
+2025-07-17 11:53:11,372 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.2.0.0
+2025-07-17 11:53:11,409 [WARN] PackLoader:240 - Cannot read IP mode file for Infineon.AIROC-Wi-Fi-Bluetooth-STM32.1.5.1
+2025-07-17 11:53:11,425 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENVWB1.1.3.1
+2025-07-17 11:53:11,442 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.2.0.0
+2025-07-17 11:53:11,501 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.10.0.0
+2025-07-17 11:53:11,618 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.1.0
+2025-07-17 11:53:11,650 [WARN] PackLoader:240 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2025-07-17 11:53:11,675 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2025-07-17 11:53:11,693 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2025-07-17 11:53:11,715 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.4.0
+2025-07-17 11:53:11,754 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.2.0
+2025-07-17 11:53:11,757 [INFO] ThirdParty:978 - Integrity check success = true
+2025-07-17 11:53:11,757 [INFO] IntegrityCheckThread:100 - exiting critical section [integrity check]
+2025-07-17 11:53:11,757 [INFO] IntegrityCheckThread:103 - End integrity checks thread
+2025-07-17 11:53:28,059 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2025-07-17 11:53:28,060 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2025-07-17 11:53:28,061 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-07-17 12:11:25,515 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2025-07-17 12:11:25,545 [ERROR] ServerAccessManage:1146 - Warning during Server Connection :  Unknown host sw-center.st.com
+2025-07-17 12:11:25,547 [INFO] MainUpdater:2868 - connection check result : 22
+2025-07-17 12:11:25,557 [ERROR] ServerAccessManage:1146 - Warning during Server Connection :  Unknown host sw-center.st.com
+2025-07-17 12:11:25,558 [INFO] MainUpdater:2868 - connection check result : 22
+2025-07-17 12:11:29,256 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-07-17 12:11:29,257 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2025-07-17 12:11:29,261 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-07-17 12:11:29,261 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-07-17 12:11:29,262 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-07-17 12:11:29,263 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2025-07-17 12:11:29,270 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 178175024 Bytes (268435456)
+2025-07-17 12:11:29,272 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-07-17 12:11:29,272 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.91
+2025-07-17 12:11:29,273 [INFO] OpenFileManager:308 - Change cursor
+2025-07-17 12:11:29,286 [INFO] ThirdPartyDownloadManager:102 - Found SW packSTMicroelectronics.X-CUBE-AI.8.1.0up-to-date on disk
+2025-07-17 12:11:29,338 [INFO] Mcu:1946 - Initializing MCU STM32F769NIHx STM32F769NIHx STM32F769NIH6
+2025-07-17 12:11:32,429 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2025-07-17 12:11:33,253 [INFO] ApiDbMcu:507 - Load IP Config File for STMicroelectronics.X-CUBE-AI.8.1.0
+2025-07-17 12:11:33,662 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-07-17 12:11:33,662 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-07-17 12:11:33,662 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-07-17 12:11:33,662 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-07-17 12:11:33,662 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-07-17 12:11:33,678 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,678 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,678 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,679 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,680 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-07-17 12:11:33,823 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:33,841 [INFO] PluginManager:220 - loadIPPluginJar : add ai.8.1.0
+2025-07-17 12:11:34,590 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:34,590 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:34,590 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:34,607 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-07-17 12:11:35,398 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-07-17 12:11:35,430 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2025-07-17 12:11:35,430 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (LCDTFToutputFreq_Value)
+2025-07-17 12:11:35,431 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (PLLP) has invalid value (2)
+2025-07-17 12:11:35,433 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDMMCFreq_Value) has invalid value (216000000)
+2025-07-17 12:11:35,435 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelName) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,435 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelType) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,435 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelKind) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,435 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelCompression) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,435 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Invalid parameter (LatestDirectoryUsed)
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelStructureFile) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelActualCompression) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelFlashOccupation) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelMacc) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Parameter (ModelRamOccupation) has Id (187529f2594aba02fcc0111f4ca8d687b91a9d821436ffd0b5230619acb2b167) currently not set
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Invalid parameter (useInputAllocation)
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Invalid parameter (useOutputAllocation)
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Invalid parameter (customLayerConfigEnabled)
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Invalid parameter (noOnnxIoTranspose)
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Invalid parameter (MaximumNumberOfInputLayer)
+2025-07-17 12:11:35,436 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (STMicroelectronics.X-CUBE-AI.8.1.0) : Invalid parameter (MaximumNumberOfOutputLayer)
+2025-07-17 12:11:35,883 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 391836384 Bytes (522190848)
+2025-07-17 12:11:36,092 [INFO] ApiDb:581 - Connected to CubeFinder SQLite database (C:\Users\afsar\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2025-07-17 12:11:36,217 [INFO] ApiDb:668 - CubeFinder database Data Model version=2.1
+2025-07-17 12:11:36,217 [INFO] ApiDb:669 - CubeFinder database Configuration version=3.0.37
+2025-07-17 12:11:36,220 [INFO] ApiDb:670 - CubeFinder database generation date=2023-08-09 (1691586011)
+2025-07-17 12:11:36,220 [INFO] ApiDb:671 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V2.0.0, FP-SNS-FLIGHT1_V5.0.1, FP-SNS-FLIGHT1_V5.0.2, FP-SNS-MOTENV1_V4.3.1, FP-SNS-MOTENV1_V4.3.2, STM32Cube_FW_C0_V1.1.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.1.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.3.0, STM32Cube_FW_U5_V1.3.0RC4, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.1.0, STM32Cube_FW_WBA_V1.1.0RC1, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WB_V1.17.0, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V2.0.0, X-CUBE-AZRTOS-H7_V3.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L4_V2.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V2.0.0, X-CUBE-BLE1_V7.0.0, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V2.0.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-FREERTOS_V1.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.6.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0, X-CUBE-TOF1_V3.3.1]
+2025-07-17 12:11:38,549 [INFO] ApiDb:240 - Found 323 in-development CPN: [B-G473E-ZEST1S, B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, NUCLEO-H503RB, NUCLEO-H563ZI, NUCLEO-U545RE-Q, NUCLEO-U5A5ZJ-Q, NUCLEO-WBA52CG, STEVAL-PROTEUS1, STEVAL-SMARTAG2, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32H503CBT6, STM32H503CBU6, STM32H503EBY6TR, STM32H503KBU6, STM32H503RBT6, STM32H562AGI6, STM32H562AII6, STM32H562IGK6, STM32H562IGT6, STM32H562IIK6, STM32H562IIT6, STM32H562RGT6, STM32H562RGV6, STM32H562RIT6, STM32H562RIV6, STM32H562VGT6, STM32H562VIT6, STM32H562ZGT6, STM32H562ZIT6, STM32H563AGI6, STM32H563AII3Q, STM32H563AII6, STM32H563IGK6, STM32H563IGT6, STM32H563IIK3Q, STM32H563IIK6, STM32H563IIT3Q, STM32H563IIT6, STM32H563MIY3QTR, STM32H563RGT6, STM32H563RGV6, STM32H563RIT6, STM32H563RIV6, STM32H563VGT6, STM32H563VIT3Q, STM32H563VIT6, STM32H563ZGT6, STM32H563ZIT3Q, STM32H563ZIT6, STM32H573AII3Q, STM32H573AII6, STM32H573I-DK, STM32H573IIK3Q, STM32H573IIK6, STM32H573IIT3Q, STM32H573IIT6, STM32H573MIY3QTR, STM32H573RIT6, STM32H573RIV6, STM32H573VIT3Q, STM32H573VIT6, STM32H573ZIT3Q, STM32H573ZIT6, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U535CBT6, STM32U535CBT6Q, STM32U535CBU6, STM32U535CBU6Q, STM32U535CCT6, STM32U535CCT6Q, STM32U535CCU6, STM32U535CCU6Q, STM32U535CET6, STM32U535CET6Q, STM32U535CEU6, STM32U535CEU6Q, STM32U535JEY6QTR, STM32U535NCY6QTR, STM32U535NEY6QTR, STM32U535RBI6, STM32U535RBI6Q, STM32U535RBT6, STM32U535RBT6Q, STM32U535RCI6, STM32U535RCI6Q, STM32U535RCT6, STM32U535RCT6Q, STM32U535REI6, STM32U535REI6Q, STM32U535RET6, STM32U535RET6Q, STM32U535VCI6, STM32U535VCI6Q, STM32U535VCT6, STM32U535VCT6Q, STM32U535VEI6, STM32U535VEI6Q, STM32U535VET6, STM32U535VET6Q, STM32U545CET6, STM32U545CET6Q, STM32U545CEU6, STM32U545CEU6Q, STM32U545JEY6QTR, STM32U545NEY6QTR, STM32U545REI6, STM32U545REI6Q, STM32U545RET6, STM32U545RET6Q, STM32U545VEI6, STM32U545VEI6Q, STM32U545VET6, STM32U545VET6Q, STM32U595AIH6, STM32U595AIH6Q, STM32U595AJH6, STM32U595AJH6Q, STM32U595QII6, STM32U595QII6Q, STM32U595QJI6, STM32U595QJI6Q, STM32U595RIT6, STM32U595RIT6Q, STM32U595RJT6, STM32U595RJT6Q, STM32U595VIT6, STM32U595VIT6Q, STM32U595VJT6, STM32U595VJT6Q, STM32U595ZIT6, STM32U595ZIT6Q, STM32U595ZIY6QTR, STM32U595ZJT6, STM32U595ZJT6Q, STM32U595ZJY6QTR, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U599VIT6Q, STM32U599VJT6, STM32U599VJT6Q, STM32U599ZIT6Q, STM32U599ZIY6QTR, STM32U599ZJT6Q, STM32U599ZJY6QTR, STM32U5A5AJH6, STM32U5A5AJH6Q, STM32U5A5QJI6, STM32U5A5QJI6Q, STM32U5A5RJT6, STM32U5A5RJT6Q, STM32U5A5VJT6, STM32U5A5VJT6Q, STM32U5A5ZJT6, STM32U5A5ZJT6Q, STM32U5A5ZJY6QTR, STM32U5A9BJY6QTR, STM32U5A9J-DK, STM32U5A9NJH6Q, STM32U5A9VJT6Q, STM32U5A9ZJT6Q, STM32U5A9ZJY6QTR, STM32U5F7VIT6, STM32U5F7VIT6Q, STM32U5F7VJT6, STM32U5F7VJT6Q, STM32U5F9BJY6QTR, STM32U5F9NJH6Q, STM32U5F9VIT6Q, STM32U5F9VJT6Q, STM32U5F9ZIJ6QTR, STM32U5F9ZIT6Q, STM32U5F9ZJJ6QTR, STM32U5F9ZJT6Q, STM32U5G7VJT6, STM32U5G7VJT6Q, STM32U5G9BJY6QTR, STM32U5G9J-DK1, STM32U5G9J-DK2, STM32U5G9NJH6Q, STM32U5G9VJT6Q, STM32U5G9ZJJ6QTR, STM32U5G9ZJT6Q, STM32WB1MMCH6, STM32WBA52CEU6, STM32WBA52CEU6T, STM32WBA52CGU6, STM32WBA52CGU6T, STM32WBA52KEU6, STM32WBA52KEU6T, STM32WBA52KGU6, STM32WBA52KGU6T, STM32WL5MOCH6, STM32WL5MOCH6TR]
+2025-07-17 12:11:38,553 [INFO] DbMcus:217 - Found 3848 MCUs, 3848 are supported
+2025-07-17 12:11:38,559 [INFO] ApiDb:423 - Load user favorites file C:\Users\afsar/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2025-07-17 12:11:38,559 [INFO] ApiDb:427 - User favorites MCUs=[STM32H7B3LIH6Q]
+2025-07-17 12:11:38,559 [INFO] DbMcus:223 - Set 1 / 1 favorites MCUs
+2025-07-17 12:11:38,911 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-07-17 12:11:38,912 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.3
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.2.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2025-07-17 12:11:38,912 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.1
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-07-17 12:11:38,913 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.1
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-07-17 12:11:38,914 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2025-07-17 12:11:38,915 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-07-17 12:11:38,915 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-07-17 12:11:38,915 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-07-17 12:11:38,915 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.0
+2025-07-17 12:11:38,915 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2025-07-17 12:11:38,915 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-07-17 12:11:38,915 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-07-17 12:11:39,250 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2025-07-17 12:11:39,252 [INFO] PinOutPanel:1499 - setPackage(STM32F769NIHx,TFBGA216)
+2025-07-17 12:11:40,144 [INFO] UtilMem:75 - Before build in PCC Used Memory: 340530424 Bytes (522190848)
+2025-07-17 12:11:41,012 [INFO] UtilMem:75 - After build in PCC Used Memory: 438212992 Bytes (522190848)
+2025-07-17 12:11:41,012 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:41,012 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:41,013 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:41,063 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,063 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,063 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,064 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,064 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,064 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,064 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,064 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,064 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,065 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,065 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,065 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,065 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,065 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,065 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,065 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,066 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,066 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,066 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,066 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,066 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,066 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,067 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,067 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,067 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,067 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,067 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,067 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,068 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,068 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,068 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,069 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,069 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,069 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,070 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,070 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,070 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,070 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,071 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,072 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,072 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,072 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,072 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,073 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,073 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,092 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,105 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,105 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,106 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,106 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,107 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,107 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,108 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,109 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-07-17 12:11:41,113 [INFO] AI:963 - onDisable adding AI com.st.microxplorer.plugins.ip.ai.AI@6a48366b on STMicroelectronics.X-CUBE-AI.8.1.0
+2025-07-17 12:11:41,143 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2025-07-17 12:11:41,507 [INFO] CADModel:165 - CPN selected for project levelSTM32F769NIH6
+2025-07-17 12:11:41,508 [INFO] CADModel:114 - Register for checkConnection events
+2025-07-17 12:11:41,551 [INFO] OpenFileManager:328 - Restore cursor
+2025-07-17 12:11:42,299 [INFO] AIMainUI:1259 - Restoring parameters from IP...
+2025-07-17 12:11:42,299 [INFO] AIMainUI:1378 - No old model detected
+2025-07-17 12:11:42,345 [INFO] AInterface:109 - AInterface using toolDir: C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows
+2025-07-17 12:11:42,350 [INFO] AIModelDetailledView:2080 - Analysis status: -
+2025-07-17 12:11:42,350 [INFO] AIModelDetailledView:861 - Selected model: Keras
+2025-07-17 12:11:42,431 [INFO] AIModelDetailledView:2080 - Analysis status: done
+2025-07-17 12:11:54,782 [INFO] AI:946 - getUI adding AI com.st.microxplorer.plugins.ip.ai.AI@6a48366b on STMicroelectronics.X-CUBE-AI.8.1.0
+2025-07-17 12:11:54,782 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:54,782 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:54,782 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:54,796 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:54,796 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:11:54,796 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:05,983 [INFO] AIModelDetailledView:2080 - Analysis status: -
+2025-07-17 12:12:27,332 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,333 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,333 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,333 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,333 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,333 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,381 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,381 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,381 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,384 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,384 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:27,384 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:12:29,596 [INFO] AInterface:235 - ModelName:myrnn; files:[C:\Users\afsar\Documents\conv1d_model.h5]; type:Keras; compression:None
+2025-07-17 12:12:29,597 [INFO] AInterface:510 - workspaceTempDir: C:\Users\afsar\AppData\Local\Temp\mxAI_workspace20404140783004028495886149159463
+2025-07-17 12:12:29,597 [INFO] AInterface:1049 - Setting Env: C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows
+2025-07-17 12:12:29,611 [INFO] STM32CubeIDEBuilder:256 - Looking for gnu-tools-for-stm32 tools/bin/arm-none-eabi-gcc.exe in C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE
+2025-07-17 12:12:29,613 [INFO] STM32CubeIDEBuilder:285 - checking C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe
+2025-07-17 12:12:29,613 [INFO] STM32CubeIDEBuilder:288 - ret=C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe
+2025-07-17 12:12:29,613 [INFO] STM32CubeIDEBuilder:302 - returning C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe
+2025-07-17 12:12:29,614 [INFO] AInterface:1106 - Custom PATH variable: C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows;C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/mingw64/bin;C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/mingw64/libexec/gcc/x86_64-w64-mingw32/7.3.0;C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/node/bin;C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin
+2025-07-17 12:12:29,618 [INFO] CmdLine:100 - Command: C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/stm32ai analyze --name myrnn -m C:/Users/afsar/Documents/conv1d_model.h5 --type keras --compression none --verbosity 1 --workspace C:\Users\afsar\AppData\Local\Temp\mxAI_workspace20404140783004028495886149159463 --output C:\Users\afsar\.stm32cubemx\network_output --allocate-inputs --series stm32f7 --allocate-outputs 
+2025-07-17 12:12:29,641 [INFO] AIModelDetailledView:2080 - Analysis status: pending
+2025-07-17 12:13:09,724 [INFO] CmdLine:67 - Neural Network Tools for STM32 family v1.7.0 (stm.ai v8.1.0-19520)
+2025-07-17 12:13:10,641 [INFO] CmdLine:67 -  
+2025-07-17 12:13:10,642 [INFO] CmdLine:67 -  Exec/report summary (analyze)
+2025-07-17 12:13:10,642 [INFO] CmdLine:67 -  ----------------------------------------------------------------------------------------------------------
+2025-07-17 12:13:10,642 [INFO] CmdLine:67 -  model file         :   C:\Users\afsar\Documents\conv1d_model.h5                                           
+2025-07-17 12:13:10,642 [INFO] CmdLine:67 -  type               :   keras                                                                              
+2025-07-17 12:13:10,643 [INFO] CmdLine:67 -  c_name             :   myrnn                                                                              
+2025-07-17 12:13:10,643 [INFO] CmdLine:67 -  compression        :   none                                                                               
+2025-07-17 12:13:10,643 [INFO] CmdLine:67 -  options            :   allocate-inputs, allocate-outputs                                                  
+2025-07-17 12:13:10,645 [INFO] CmdLine:67 -  optimization       :   balanced                                                                           
+2025-07-17 12:13:10,646 [INFO] CmdLine:67 -  target/series      :   stm32f7                                                                            
+2025-07-17 12:13:10,647 [INFO] CmdLine:67 -  workspace dir      :   C:\Users\afsar\AppData\Local\Temp\mxAI_workspace20404140783004028495886149159463   
+2025-07-17 12:13:10,647 [INFO] CmdLine:67 -  output dir         :   C:\Users\afsar\.stm32cubemx\network_output                                         
+2025-07-17 12:13:10,647 [INFO] CmdLine:67 -  model_fmt          :   float                                                                              
+2025-07-17 12:13:10,648 [INFO] CmdLine:67 -  model_name         :   conv1d_model                                                                       
+2025-07-17 12:13:10,648 [INFO] CmdLine:67 -  model_hash         :   4b66831863cc89df92e7565ccd6d70f2                                                   
+2025-07-17 12:13:10,649 [INFO] CmdLine:67 -  params #           :   49,409 items (193.00 KiB)                                                          
+2025-07-17 12:13:10,649 [INFO] CmdLine:67 -  ----------------------------------------------------------------------------------------------------------
+2025-07-17 12:13:10,650 [INFO] CmdLine:67 -  input 1/1          :   'input_0' (domain:activations/**default**)                                         
+2025-07-17 12:13:10,650 [INFO] CmdLine:67 -                     :   50 items, 200 B, ai_float, float, (1,50,1)                                         
+2025-07-17 12:13:10,650 [INFO] CmdLine:67 -  output 1/1         :   'dense_1' (domain:activations/**default**)                                         
+2025-07-17 12:13:10,651 [INFO] CmdLine:67 -                     :   1 items, 4 B, ai_float, float, (1,1)                                               
+2025-07-17 12:13:10,651 [INFO] CmdLine:67 -  macc               :   57,067                                                                             
+2025-07-17 12:13:10,651 [INFO] CmdLine:67 -  weights (ro)       :   197,636 B (193.00 KiB) (1 segment)                                                 
+2025-07-17 12:13:10,651 [INFO] CmdLine:67 -  activations (rw)   :   6,344 B (6.20 KiB) (1 segment) *                                                   
+2025-07-17 12:13:10,652 [INFO] CmdLine:67 -  ram (total)        :   6,344 B (6.20 KiB) = 6,344 + 0 + 0                                                 
+2025-07-17 12:13:10,652 [INFO] CmdLine:67 -  ----------------------------------------------------------------------------------------------------------
+2025-07-17 12:13:10,652 [INFO] CmdLine:67 -  (*) 'input'/'output' buffers can be used from the activations buffer
+2025-07-17 12:13:13,258 [INFO] CmdLine:67 -  Model name - conv1d_model ['input_0'] ['dense_1']
+2025-07-17 12:13:13,259 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:13:13,259 [INFO] CmdLine:67 -  m_id   layer (original)               oshape                    param/size           macc    connected to
+2025-07-17 12:13:13,259 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:13:13,260 [INFO] CmdLine:67 -  0      input_0 (None)                 [b:None,h:50,h:50,c:1]
+2025-07-17 12:13:13,260 [INFO] CmdLine:67 -         conv1d_conv2d (Conv1D)         [b:None,h:48,h:48,c:32]   128/512             4,640         input_0
+2025-07-17 12:13:13,260 [INFO] CmdLine:67 -         conv1d (Conv1D)                [b:None,h:48,h:48,c:32]                       1,536   conv1d_conv2d
+2025-07-17 12:13:13,261 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:13:13,261 [INFO] CmdLine:67 -  1      max_pooling1d (MaxPooling1D)   [b:None,h:24,h:24,c:32]                       1,536          conv1d
+2025-07-17 12:13:13,261 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:13:13,263 [INFO] CmdLine:67 -  2      flatten (Flatten)              [b:None,c:768]                                        max_pooling1d
+2025-07-17 12:13:13,264 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:13:13,264 [INFO] CmdLine:67 -  3      dense_dense (Dense)            [b:None,c:64]             49,216/196,864     49,216         flatten
+2025-07-17 12:13:13,264 [INFO] CmdLine:67 -         dense (Dense)                  [b:None,c:64]                                    64     dense_dense
+2025-07-17 12:13:13,265 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:13:13,265 [INFO] CmdLine:67 -  4      dense_1_dense (Dense)          [b:None,c:1]              65/260                 65           dense
+2025-07-17 12:13:13,265 [INFO] CmdLine:67 -         dense_1 (Dense)                [b:None,c:1]                                     10   dense_1_dense
+2025-07-17 12:13:13,266 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:13:13,266 [INFO] CmdLine:67 -  model/c-model: macc=57,067/57,067  weights=197,636/197,636  activations=--/6,344 io=--/0
+2025-07-17 12:13:13,266 [INFO] CmdLine:67 -  Number of operations per c-layer
+2025-07-17 12:13:13,267 [INFO] CmdLine:67 -  ------- ------ ------------------------ -------- --------------
+2025-07-17 12:13:13,267 [INFO] CmdLine:67 -  c_id    m_id   name (type)                   #op           type
+2025-07-17 12:13:13,267 [INFO] CmdLine:67 -  ------- ------ ------------------------ -------- --------------
+2025-07-17 12:13:13,268 [INFO] CmdLine:67 -  0       0      conv1d_conv2d (conv2d)      4,640   smul_f32_f32
+2025-07-17 12:13:13,268 [INFO] CmdLine:67 -  1       0      conv1d (nl)                 1,536     op_f32_f32
+2025-07-17 12:13:13,268 [INFO] CmdLine:67 -  2       1      max_pooling1d (pool)        1,536     op_f32_f32
+2025-07-17 12:13:13,269 [INFO] CmdLine:67 -  3       3      dense_dense (dense)        49,216   smul_f32_f32
+2025-07-17 12:13:13,269 [INFO] CmdLine:67 -  4       3      dense (nl)                     64     op_f32_f32
+2025-07-17 12:13:13,269 [INFO] CmdLine:67 -  5       4      dense_1_dense (dense)          65   smul_f32_f32
+2025-07-17 12:13:13,273 [INFO] CmdLine:67 -  6       4      dense_1 (nl)                   10     op_f32_f32
+2025-07-17 12:13:13,273 [INFO] CmdLine:67 -  ------- ------ ------------------------ -------- --------------
+2025-07-17 12:13:13,274 [INFO] CmdLine:67 -  total                                     57,067
+2025-07-17 12:13:13,274 [INFO] CmdLine:67 -  Number of operation types
+2025-07-17 12:13:13,275 [INFO] CmdLine:67 -  ---------------- -------- -----------
+2025-07-17 12:13:13,275 [INFO] CmdLine:67 -  operation type          #           %
+2025-07-17 12:13:13,275 [INFO] CmdLine:67 -  ---------------- -------- -----------
+2025-07-17 12:13:13,276 [INFO] CmdLine:67 -  smul_f32_f32       53,921       94.5%
+2025-07-17 12:13:13,276 [INFO] CmdLine:67 -  op_f32_f32          3,146        5.5%
+2025-07-17 12:13:13,276 [INFO] CmdLine:67 -  Complexity report (model)
+2025-07-17 12:13:13,277 [INFO] CmdLine:67 -  ------ --------------- ------------------------- ------------------------- --------
+2025-07-17 12:13:13,277 [INFO] CmdLine:67 -  m_id   name            c_macc                    c_rom                     c_id
+2025-07-17 12:13:13,278 [INFO] CmdLine:67 -  ------ --------------- ------------------------- ------------------------- --------
+2025-07-17 12:13:13,278 [INFO] CmdLine:67 -  0      input_0         ||                10.8%   |                  0.3%   [0, 1]
+2025-07-17 12:13:13,279 [INFO] CmdLine:67 -  1      max_pooling1d   |                  2.7%   |                  0.0%   [2]
+2025-07-17 12:13:13,280 [INFO] CmdLine:67 -  3      dense_dense     ||||||||||||||||  86.4%   ||||||||||||||||  99.6%   [3, 4]
+2025-07-17 12:13:13,280 [INFO] CmdLine:67 -  4      dense_1_dense   |                  0.1%   |                  0.1%   [5, 6]
+2025-07-17 12:13:13,281 [INFO] CmdLine:67 -  ------ --------------- ------------------------- ------------------------- --------
+2025-07-17 12:13:13,281 [INFO] CmdLine:67 -  macc=57,067 weights=197,636 act=6,344 ram_io=0
+2025-07-17 12:13:13,282 [INFO] CmdLine:67 -  Requested memory size per segment ("stm32f7" series)
+2025-07-17 12:13:13,282 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:13:13,282 [INFO] CmdLine:67 -  module                            text    rodata    data     bss
+2025-07-17 12:13:13,283 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:13:13,283 [INFO] CmdLine:67 -  NetworkRuntime810_CM7_GCC.a     13,208         0       0       0
+2025-07-17 12:13:13,284 [INFO] CmdLine:67 -  myrnn.o                            572        56   2,040     188
+2025-07-17 12:13:13,284 [INFO] CmdLine:67 -  myrnn_data.o                        56        48      88       0
+2025-07-17 12:13:13,285 [INFO] CmdLine:67 -  lib (toolchain)*                   614        24       0       0
+2025-07-17 12:13:13,285 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:13:13,286 [INFO] CmdLine:67 -  RT total**                      14,450       128   2,128     188
+2025-07-17 12:13:13,286 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:13:13,287 [INFO] CmdLine:67 -  *weights*                            0   197,640       0       0
+2025-07-17 12:13:13,287 [INFO] CmdLine:67 -  *activations*                        0         0       0   6,344
+2025-07-17 12:13:13,287 [INFO] CmdLine:67 -  *io*                                 0         0       0       0
+2025-07-17 12:13:13,288 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:13:13,297 [INFO] CmdLine:67 -  TOTAL                           14,450   197,768   2,128   6,532
+2025-07-17 12:13:13,298 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:13:13,299 [INFO] CmdLine:67 -  *  toolchain objects (libm/libgcc*)
+2025-07-17 12:13:13,300 [INFO] CmdLine:67 -  ** RT - AI runtime objects (kernels+infrastructure)
+2025-07-17 12:13:13,300 [INFO] CmdLine:67 -   Summary per memory device type
+2025-07-17 12:13:13,300 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:13:13,301 [INFO] CmdLine:67 -   .\device       FLASH      %     RAM       %
+2025-07-17 12:13:13,301 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:13:13,301 [INFO] CmdLine:67 -   RT total      16,706   7.8%   2,316   26.7%
+2025-07-17 12:13:13,301 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:13:13,302 [INFO] CmdLine:67 -   TOTAL        214,346          8,660
+2025-07-17 12:13:13,302 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:13:13,302 [INFO] CmdLine:67 - Creating txt report file C:\Users\afsar\.stm32cubemx\network_output\myrnn_analyze_report.txt
+2025-07-17 12:13:13,370 [INFO] CmdLine:67 - elapsed time (analyze): 3.646s
+2025-07-17 12:13:13,860 [INFO] CmdLine:132 - stm32ai exit with status: 0
+2025-07-17 12:13:13,863 [INFO] AInterface:601 - Successfully load: myrnn
+2025-07-17 12:13:13,875 [INFO] AIModelDetailledView:1055 - Model file:      conv1d_model.h5
+2025-07-17 12:13:13,876 [INFO] AIModelDetailledView:1055 - Total Flash:     214342 B (209.32 KiB)
+2025-07-17 12:13:13,877 [INFO] AIModelDetailledView:1055 -     Weights:     197636 B (193.00 KiB)
+2025-07-17 12:13:13,877 [INFO] AIModelDetailledView:1055 -     Library:     16706 B (16.31 KiB)
+2025-07-17 12:13:13,879 [INFO] AIModelDetailledView:1055 - Total Ram:       8660 B (8.46 KiB)
+2025-07-17 12:13:13,879 [INFO] AIModelDetailledView:1055 -     Activations: 6344 B (6.20 KiB)
+2025-07-17 12:13:13,879 [INFO] AIModelDetailledView:1055 -     Library:     2316 B (2.26 KiB)
+2025-07-17 12:13:13,880 [INFO] AIModelDetailledView:1055 -     Input:       200 B (included in Activations)
+2025-07-17 12:13:13,880 [INFO] AIModelDetailledView:1055 -     Output:      4 B (included in Activations)
+2025-07-17 12:13:13,880 [INFO] AIModelDetailledView:1055 - Done
+2025-07-17 12:13:13,880 [INFO] AIModelDetailledView:2409 - Analyze complete on AI model
+2025-07-17 12:13:13,926 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,926 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,927 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,927 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,927 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,927 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,965 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,965 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,965 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,966 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,966 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:13,966 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:14,010 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:14,011 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:14,011 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:14,011 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:14,011 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:14,011 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:13:14,024 [INFO] AIModelDetailledView:2080 - Analysis status: done
+2025-07-17 12:38:27,444 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 305576744 Bytes (522190848)
+2025-07-17 12:38:27,595 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,595 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,595 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,595 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 12:38:27,611 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 12:38:27,611 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 12:38:27,673 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,673 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,673 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,673 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,673 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,673 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:27,689 [INFO] AIModelDetailledView:2080 - Analysis status: -
+2025-07-17 12:38:27,689 [INFO] AInterface:235 - ModelName:myrnn; files:[C:\Users\afsar\Documents\conv1d_model.h5]; type:Keras; compression:None
+2025-07-17 12:38:27,689 [INFO] AInterface:510 - workspaceTempDir: C:\Users\afsar\AppData\Local\Temp\mxAI_workspace359851738390011941449901360744026
+2025-07-17 12:38:27,689 [INFO] AInterface:1049 - Setting Env: C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows
+2025-07-17 12:38:27,689 [INFO] STM32CubeIDEBuilder:256 - Looking for gnu-tools-for-stm32 tools/bin/arm-none-eabi-gcc.exe in C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE
+2025-07-17 12:38:27,705 [INFO] STM32CubeIDEBuilder:285 - checking C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe
+2025-07-17 12:38:27,705 [INFO] STM32CubeIDEBuilder:288 - ret=C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe
+2025-07-17 12:38:27,705 [INFO] STM32CubeIDEBuilder:302 - returning C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe
+2025-07-17 12:38:27,705 [INFO] AInterface:1106 - Custom PATH variable: C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows;C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/mingw64/bin;C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/mingw64/libexec/gcc/x86_64-w64-mingw32/7.3.0;C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/node/bin;C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin
+2025-07-17 12:38:27,705 [INFO] CmdLine:100 - Command: C:/Users/afsar/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/8.1.0/Utilities/windows/stm32ai analyze --name myrnn -m C:/Users/afsar/Documents/conv1d_model.h5 --type keras --compression none --verbosity 1 --workspace C:\Users\afsar\AppData\Local\Temp\mxAI_workspace359851738390011941449901360744026 --output C:\Users\afsar\.stm32cubemx\network_output --allocate-inputs --series stm32f7 --allocate-outputs 
+2025-07-17 12:38:27,705 [INFO] AIModelDetailledView:2080 - Analysis status: pending
+2025-07-17 12:38:34,671 [INFO] CmdLine:67 - Neural Network Tools for STM32 family v1.7.0 (stm.ai v8.1.0-19520)
+2025-07-17 12:38:35,218 [INFO] CmdLine:67 -  
+2025-07-17 12:38:35,218 [INFO] CmdLine:67 -  Exec/report summary (analyze)
+2025-07-17 12:38:35,218 [INFO] CmdLine:67 -  -----------------------------------------------------------------------------------------------------------
+2025-07-17 12:38:35,218 [INFO] CmdLine:67 -  model file         :   C:\Users\afsar\Documents\conv1d_model.h5                                            
+2025-07-17 12:38:35,219 [INFO] CmdLine:67 -  type               :   keras                                                                               
+2025-07-17 12:38:35,219 [INFO] CmdLine:67 -  c_name             :   myrnn                                                                               
+2025-07-17 12:38:35,219 [INFO] CmdLine:67 -  compression        :   none                                                                                
+2025-07-17 12:38:35,219 [INFO] CmdLine:67 -  options            :   allocate-inputs, allocate-outputs                                                   
+2025-07-17 12:38:35,219 [INFO] CmdLine:67 -  optimization       :   balanced                                                                            
+2025-07-17 12:38:35,220 [INFO] CmdLine:67 -  target/series      :   stm32f7                                                                             
+2025-07-17 12:38:35,220 [INFO] CmdLine:67 -  workspace dir      :   C:\Users\afsar\AppData\Local\Temp\mxAI_workspace359851738390011941449901360744026   
+2025-07-17 12:38:35,220 [INFO] CmdLine:67 -  output dir         :   C:\Users\afsar\.stm32cubemx\network_output                                          
+2025-07-17 12:38:35,220 [INFO] CmdLine:67 -  model_fmt          :   float                                                                               
+2025-07-17 12:38:35,220 [INFO] CmdLine:67 -  model_name         :   conv1d_model                                                                        
+2025-07-17 12:38:35,221 [INFO] CmdLine:67 -  model_hash         :   4b66831863cc89df92e7565ccd6d70f2                                                    
+2025-07-17 12:38:35,221 [INFO] CmdLine:67 -  params #           :   49,409 items (193.00 KiB)                                                           
+2025-07-17 12:38:35,221 [INFO] CmdLine:67 -  -----------------------------------------------------------------------------------------------------------
+2025-07-17 12:38:35,221 [INFO] CmdLine:67 -  input 1/1          :   'input_0' (domain:activations/**default**)                                          
+2025-07-17 12:38:35,221 [INFO] CmdLine:67 -                     :   50 items, 200 B, ai_float, float, (1,50,1)                                          
+2025-07-17 12:38:35,221 [INFO] CmdLine:67 -  output 1/1         :   'dense_1' (domain:activations/**default**)                                          
+2025-07-17 12:38:35,222 [INFO] CmdLine:67 -                     :   1 items, 4 B, ai_float, float, (1,1)                                                
+2025-07-17 12:38:35,222 [INFO] CmdLine:67 -  macc               :   57,067                                                                              
+2025-07-17 12:38:35,222 [INFO] CmdLine:67 -  weights (ro)       :   197,636 B (193.00 KiB) (1 segment)                                                  
+2025-07-17 12:38:35,222 [INFO] CmdLine:67 -  activations (rw)   :   6,344 B (6.20 KiB) (1 segment) *                                                    
+2025-07-17 12:38:35,222 [INFO] CmdLine:67 -  ram (total)        :   6,344 B (6.20 KiB) = 6,344 + 0 + 0                                                  
+2025-07-17 12:38:35,222 [INFO] CmdLine:67 -  -----------------------------------------------------------------------------------------------------------
+2025-07-17 12:38:35,222 [INFO] CmdLine:67 -  (*) 'input'/'output' buffers can be used from the activations buffer
+2025-07-17 12:38:36,468 [INFO] CmdLine:67 -  Model name - conv1d_model ['input_0'] ['dense_1']
+2025-07-17 12:38:36,468 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:38:36,469 [INFO] CmdLine:67 -  m_id   layer (original)               oshape                    param/size           macc    connected to
+2025-07-17 12:38:36,469 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:38:36,469 [INFO] CmdLine:67 -  0      input_0 (None)                 [b:None,h:50,h:50,c:1]
+2025-07-17 12:38:36,470 [INFO] CmdLine:67 -         conv1d_conv2d (Conv1D)         [b:None,h:48,h:48,c:32]   128/512             4,640         input_0
+2025-07-17 12:38:36,470 [INFO] CmdLine:67 -         conv1d (Conv1D)                [b:None,h:48,h:48,c:32]                       1,536   conv1d_conv2d
+2025-07-17 12:38:36,471 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:38:36,471 [INFO] CmdLine:67 -  1      max_pooling1d (MaxPooling1D)   [b:None,h:24,h:24,c:32]                       1,536          conv1d
+2025-07-17 12:38:36,471 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:38:36,472 [INFO] CmdLine:67 -  2      flatten (Flatten)              [b:None,c:768]                                        max_pooling1d
+2025-07-17 12:38:36,472 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:38:36,472 [INFO] CmdLine:67 -  3      dense_dense (Dense)            [b:None,c:64]             49,216/196,864     49,216         flatten
+2025-07-17 12:38:36,473 [INFO] CmdLine:67 -         dense (Dense)                  [b:None,c:64]                                    64     dense_dense
+2025-07-17 12:38:36,473 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:38:36,473 [INFO] CmdLine:67 -  4      dense_1_dense (Dense)          [b:None,c:1]              65/260                 65           dense
+2025-07-17 12:38:36,474 [INFO] CmdLine:67 -         dense_1 (Dense)                [b:None,c:1]                                     10   dense_1_dense
+2025-07-17 12:38:36,474 [INFO] CmdLine:67 -  ------ ------------------------------ ------------------------- ---------------- -------- ---------------
+2025-07-17 12:38:36,474 [INFO] CmdLine:67 -  model/c-model: macc=57,067/57,067  weights=197,636/197,636  activations=--/6,344 io=--/0
+2025-07-17 12:38:36,474 [INFO] CmdLine:67 -  Number of operations per c-layer
+2025-07-17 12:38:36,475 [INFO] CmdLine:67 -  ------- ------ ------------------------ -------- --------------
+2025-07-17 12:38:36,475 [INFO] CmdLine:67 -  c_id    m_id   name (type)                   #op           type
+2025-07-17 12:38:36,475 [INFO] CmdLine:67 -  ------- ------ ------------------------ -------- --------------
+2025-07-17 12:38:36,475 [INFO] CmdLine:67 -  0       0      conv1d_conv2d (conv2d)      4,640   smul_f32_f32
+2025-07-17 12:38:36,475 [INFO] CmdLine:67 -  1       0      conv1d (nl)                 1,536     op_f32_f32
+2025-07-17 12:38:36,476 [INFO] CmdLine:67 -  2       1      max_pooling1d (pool)        1,536     op_f32_f32
+2025-07-17 12:38:36,476 [INFO] CmdLine:67 -  3       3      dense_dense (dense)        49,216   smul_f32_f32
+2025-07-17 12:38:36,476 [INFO] CmdLine:67 -  4       3      dense (nl)                     64     op_f32_f32
+2025-07-17 12:38:36,476 [INFO] CmdLine:67 -  5       4      dense_1_dense (dense)          65   smul_f32_f32
+2025-07-17 12:38:36,477 [INFO] CmdLine:67 -  6       4      dense_1 (nl)                   10     op_f32_f32
+2025-07-17 12:38:36,477 [INFO] CmdLine:67 -  ------- ------ ------------------------ -------- --------------
+2025-07-17 12:38:36,478 [INFO] CmdLine:67 -  total                                     57,067
+2025-07-17 12:38:36,478 [INFO] CmdLine:67 -  Number of operation types
+2025-07-17 12:38:36,479 [INFO] CmdLine:67 -  ---------------- -------- -----------
+2025-07-17 12:38:36,479 [INFO] CmdLine:67 -  operation type          #           %
+2025-07-17 12:38:36,480 [INFO] CmdLine:67 -  ---------------- -------- -----------
+2025-07-17 12:38:36,480 [INFO] CmdLine:67 -  smul_f32_f32       53,921       94.5%
+2025-07-17 12:38:36,480 [INFO] CmdLine:67 -  op_f32_f32          3,146        5.5%
+2025-07-17 12:38:36,480 [INFO] CmdLine:67 -  Complexity report (model)
+2025-07-17 12:38:36,481 [INFO] CmdLine:67 -  ------ --------------- ------------------------- ------------------------- --------
+2025-07-17 12:38:36,481 [INFO] CmdLine:67 -  m_id   name            c_macc                    c_rom                     c_id
+2025-07-17 12:38:36,481 [INFO] CmdLine:67 -  ------ --------------- ------------------------- ------------------------- --------
+2025-07-17 12:38:36,481 [INFO] CmdLine:67 -  0      input_0         ||                10.8%   |                  0.3%   [0, 1]
+2025-07-17 12:38:36,482 [INFO] CmdLine:67 -  1      max_pooling1d   |                  2.7%   |                  0.0%   [2]
+2025-07-17 12:38:36,482 [INFO] CmdLine:67 -  3      dense_dense     ||||||||||||||||  86.4%   ||||||||||||||||  99.6%   [3, 4]
+2025-07-17 12:38:36,482 [INFO] CmdLine:67 -  4      dense_1_dense   |                  0.1%   |                  0.1%   [5, 6]
+2025-07-17 12:38:36,483 [INFO] CmdLine:67 -  ------ --------------- ------------------------- ------------------------- --------
+2025-07-17 12:38:36,483 [INFO] CmdLine:67 -  macc=57,067 weights=197,636 act=6,344 ram_io=0
+2025-07-17 12:38:36,483 [INFO] CmdLine:67 -  Requested memory size per segment ("stm32f7" series)
+2025-07-17 12:38:36,483 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:38:36,483 [INFO] CmdLine:67 -  module                            text    rodata    data     bss
+2025-07-17 12:38:36,484 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:38:36,484 [INFO] CmdLine:67 -  NetworkRuntime810_CM7_GCC.a     13,208         0       0       0
+2025-07-17 12:38:36,484 [INFO] CmdLine:67 -  myrnn.o                            572        56   2,040     188
+2025-07-17 12:38:36,484 [INFO] CmdLine:67 -  myrnn_data.o                        56        48      88       0
+2025-07-17 12:38:36,485 [INFO] CmdLine:67 -  lib (toolchain)*                   614        24       0       0
+2025-07-17 12:38:36,485 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:38:36,485 [INFO] CmdLine:67 -  RT total**                      14,450       128   2,128     188
+2025-07-17 12:38:36,485 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:38:36,486 [INFO] CmdLine:67 -  *weights*                            0   197,640       0       0
+2025-07-17 12:38:36,486 [INFO] CmdLine:67 -  *activations*                        0         0       0   6,344
+2025-07-17 12:38:36,486 [INFO] CmdLine:67 -  *io*                                 0         0       0       0
+2025-07-17 12:38:36,486 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:38:36,487 [INFO] CmdLine:67 -  TOTAL                           14,450   197,768   2,128   6,532
+2025-07-17 12:38:36,487 [INFO] CmdLine:67 -  ----------------------------- -------- --------- ------- -------
+2025-07-17 12:38:36,487 [INFO] CmdLine:67 -  *  toolchain objects (libm/libgcc*)
+2025-07-17 12:38:36,487 [INFO] CmdLine:67 -  ** RT - AI runtime objects (kernels+infrastructure)
+2025-07-17 12:38:36,487 [INFO] CmdLine:67 -   Summary per memory device type
+2025-07-17 12:38:36,488 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:38:36,488 [INFO] CmdLine:67 -   .\device       FLASH      %     RAM       %
+2025-07-17 12:38:36,488 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:38:36,488 [INFO] CmdLine:67 -   RT total      16,706   7.8%   2,316   26.7%
+2025-07-17 12:38:36,489 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:38:36,489 [INFO] CmdLine:67 -   TOTAL        214,346          8,660
+2025-07-17 12:38:36,489 [INFO] CmdLine:67 -   --------------------------------------------
+2025-07-17 12:38:36,489 [INFO] CmdLine:67 - Creating txt report file C:\Users\afsar\.stm32cubemx\network_output\myrnn_analyze_report.txt
+2025-07-17 12:38:36,516 [INFO] CmdLine:67 - elapsed time (analyze): 1.846s
+2025-07-17 12:38:37,061 [INFO] CmdLine:132 - stm32ai exit with status: 0
+2025-07-17 12:38:37,065 [INFO] AInterface:601 - Successfully load: myrnn
+2025-07-17 12:38:37,088 [INFO] AIModelDetailledView:2409 - Analyze complete on AI model
+2025-07-17 12:38:37,090 [INFO] AIModelDetailledView:2080 - Analysis status: done
+2025-07-17 12:38:37,099 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class javax.swing.SwingUtilities$SharedOwnerFrame cannot be cast to class com.st.microxplorer.maingui.MainFrame (javax.swing.SwingUtilities$SharedOwnerFrame is in module java.desktop of loader 'bootstrap'; com.st.microxplorer.maingui.MainFrame is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @d66502)
+2025-07-17 12:38:37,102 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.ai.model.AIAdvancedSettingsData.saveSettings(AIAdvancedSettingsData.java:617)
+2025-07-17 12:38:37,104 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.ai.model.AIAdvancedSettingsData.cmdSaveSettings(AIAdvancedSettingsData.java:501)
+2025-07-17 12:38:37,105 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.ai.gui.AIModelDetailledView.saveData(AIModelDetailledView.java:454)
+2025-07-17 12:38:37,106 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.ai.gui.AIMainUI.saveModelDataNeededForGeneration(AIMainUI.java:901)
+2025-07-17 12:38:37,107 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.ai.gui.AITopWindow.saveModelsData(AITopWindow.java:209)
+2025-07-17 12:38:37,109 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.ai.AI.propertyChange(AI.java:1506)
+2025-07-17 12:38:37,110 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2025-07-17 12:38:37,111 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2025-07-17 12:38:37,114 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2025-07-17 12:38:37,120 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2025-07-17 12:38:37,123 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.completeSaveConfig(MxSystem.java:844)
+2025-07-17 12:38:37,126 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.SaveFileManager.saveConfiguration(SaveFileManager.java:125)
+2025-07-17 12:38:37,129 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userSaveConfig(MainFileManager.java:403)
+2025-07-17 12:38:37,131 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:258)
+2025-07-17 12:38:37,132 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.editor.CubeMxEditor$9.run(CubeMxEditor.java:687)
+2025-07-17 12:38:37,134 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166)
+2025-07-17 12:38:37,138 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2025-07-17 12:38:37,139 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)
+2025-07-17 12:38:37,141 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+2025-07-17 12:38:37,142 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+2025-07-17 12:38:37,144 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2025-07-17 12:38:37,146 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2025-07-17 12:38:37,147 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:741)
+2025-07-17 12:38:37,152 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2025-07-17 12:38:37,154 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2025-07-17 12:38:37,157 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2025-07-17 12:38:37,159 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2025-07-17 12:38:37,162 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2025-07-17 12:38:37,165 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-07-17 12:38:37,386 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:37,386 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:37,386 [INFO] Middleware:617 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition success for : !SEMDeviceJjApplicationJjApplicationTemplate
+2025-07-17 12:38:37,644 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 12:38:37,644 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-07-17 12:38:37,644 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com

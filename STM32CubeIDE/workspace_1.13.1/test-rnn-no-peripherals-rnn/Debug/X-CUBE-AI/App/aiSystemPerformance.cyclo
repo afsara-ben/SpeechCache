@@ -1,0 +1,10 @@
+../X-CUBE-AI/App/aiTestUtility.h:142:20:_mon_alloc_reset	1
+../X-CUBE-AI/App/aiTestUtility.h:358:26:cyclesCounterEnd	2
+../X-CUBE-AI/App/aiSystemPerformance.c:256:15:user_observer_cb	2
+../X-CUBE-AI/App/aiSystemPerformance.c:217:13:aiDeInit	3
+../X-CUBE-AI/App/aiSystemPerformance.c:594:12:aiTestConsole	15
+../X-CUBE-AI/App/aiSystemPerformance.c:280:6:aiObserverInit	6
+../X-CUBE-AI/App/aiSystemPerformance.c:319:6:aiObserverDone	6
+../X-CUBE-AI/App/aiSystemPerformance.c:628:5:aiSystemPerformanceInit	6
+../X-CUBE-AI/App/aiSystemPerformance.c:647:5:aiSystemPerformanceProcess	39
+../X-CUBE-AI/App/aiSystemPerformance.c:724:6:aiSystemPerformanceDeInit	1

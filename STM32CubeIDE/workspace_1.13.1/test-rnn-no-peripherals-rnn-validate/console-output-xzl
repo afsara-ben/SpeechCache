@@ -1,0 +1,503 @@
+A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                                         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                                         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                                         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                                         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                                         BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                                         BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                                         BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                                         BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB                                                         BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+#
+# AI system performance measurement 7.0
+#
+Compiled with GCC 11.3.1
+STM32 device configuration...
+ Device       : DevID:0x0451 (STM32F76x/F77x) RevID:0x1001
+ Core Arch.   : M7 - FPU  used
+ HAL version  : 0x01030000
+ SYSCLK clock : 216 MHz
+ HCLK clock   : 216 MHz
+ FLASH conf.  : ACR=0x00000007 - Prefetch=False ART=False latency=7
+ CACHE conf.  : $I/$D=(True,True)
+ Timestamp    : SysTick + DWT (delay(1)=1.005 ms)
+
+AI platform (API 1.1.0 - RUNTIME 8.1.0)
+Discovering the network(s)...
+
+Found network "myrnn"
+Creating the network "myrnn"..
+Initializing the network
+Network informations...
+ model name         : myrnn
+ model signature    : 2da2352378255dbe313336302d9998d5
+ model datetime     : Mon Aug 21 13:11:20 2023
+ compile datetime   : Aug 21 2023 13:11:26
+ tools version      : 8.1.0
+ complexity         : 211275 MACC
+ c-nodes            : 3
+ map_activations    : 1
+  [0] (1,1,1,968)968/u8 Q8.0 @0x20000960/968
+ map_weights        : 1
+  [0] (1,1,1,17156)17156/u8 Q8.0 @0x800BFC0/17156
+ n_inputs/n_outputs : 1/1
+  I[0] (1,50,1,1)50/float32 @0x20000960/200
+  O[0] (1,1,1,1)1/float32 @0x20000964/4
+X
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.639 ms (average)
+ CPU cycles   : 1002050 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.630ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.624  99.87 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.630 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.638 ms (average)
+ CPU cycles   : 1001842 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 408 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.624  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.636 ms (average)
+ CPU cycles   : 1001466 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.622  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.638 ms (average)
+ CPU cycles   : 1001811 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 408 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001746 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001652 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001679 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.638 ms (average)
+ CPU cycles   : 1001853 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.624  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001750 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.87 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.636 ms (average)
+ CPU cycles   : 1001444 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.627ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.622  99.87 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.627 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001650 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.636 ms (average)
+ CPU cycles   : 1001479 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.622  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.636 ms (average)
+ CPU cycles   : 1001473 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.622  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001806 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.636 ms (average)
+ CPU cycles   : 1001497 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.622  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001729 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 408 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001600 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001617 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.628ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.628 ms
+
+Possible key for the interactive console:
+  [q,Q]      quit the application
+  [r,R]      re-start (NN de-init and re-init)
+  [p,P]      pause
+  [d,D]      hide detailed information ('r' to restore)
+  [h,H,?]    this information
+   xx        continue immediately
+
+Press any key to continue..
+
+Running PerfTest on "myrnn" with random inputs (16 iterations)...
+................
+
+Results for "myrnn", 16 inferences @216MHz/216MHz (complexity: 211275 MACC)
+ duration     : 4.637 ms (average)
+ CPU cycles   : 1001697 (average)
+ CPU Workload : 0% (duty cycle = 1s)
+ cycles/MACC  : 4.74 (average for all layers)
+ used stack   : 416 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 72 bytes used from the heap (3 c-nodes)
+
+ Inference time by c-node
+  kernel  : 4.629ms (time passed in the c-kernel fcts)
+  user    : 0.001ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     RNN                 0          4.623  99.88 %
+ 1     DENSE               1          0.003   0.08 %
+ 2     NL                  1          0.001   0.04 %
+ -------------------------------------------------
+                                      4.629 ms

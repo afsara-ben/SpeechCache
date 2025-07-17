@@ -1,0 +1,2 @@
+../X-CUBE-AI/App/ai_device_adaptor.c:29:6:port_hal_crc_ip_init_imp	8	static
+../X-CUBE-AI/App/ai_device_adaptor.c:97:6:port_dwt_init_imp	0	static

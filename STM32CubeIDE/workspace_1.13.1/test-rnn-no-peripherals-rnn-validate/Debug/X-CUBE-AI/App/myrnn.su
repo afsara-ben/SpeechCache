@@ -1,0 +1,11 @@
+../X-CUBE-AI/App/myrnn.c:342:9:ai_myrnn_get_info	152	static
+../X-CUBE-AI/App/myrnn.c:388:9:ai_myrnn_get_report	152	static
+../X-CUBE-AI/App/myrnn.c:434:10:ai_myrnn_get_error	0	static
+../X-CUBE-AI/App/myrnn.c:440:10:ai_myrnn_create	16	static
+../X-CUBE-AI/App/myrnn.c:484:12:ai_myrnn_inputs_get	0	static
+../X-CUBE-AI/App/myrnn.c:494:12:ai_myrnn_outputs_get	0	static
+../X-CUBE-AI/App/myrnn.c:504:11:ai_myrnn_destroy	0	static
+../X-CUBE-AI/App/myrnn.c:510:9:ai_myrnn_init	24	static
+../X-CUBE-AI/App/myrnn.c:450:10:ai_myrnn_create_and_init	88	static
+../X-CUBE-AI/App/myrnn.c:527:8:ai_myrnn_run	0	static
+../X-CUBE-AI/App/myrnn.c:534:8:ai_myrnn_forward	0	static

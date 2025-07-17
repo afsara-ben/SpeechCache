@@ -1,0 +1,5 @@
+../X-CUBE-AI/App/aiPbMemRWServices.c:24:5:bsdChecksum	2
+../X-CUBE-AI/App/aiPbMemRWServices.c:39:6:memory_valid_addr_range	1
+../X-CUBE-AI/App/aiPbMemRWServices.c:44:6:memory_checksum	3
+../X-CUBE-AI/App/aiPbMemRWServices.c:52:6:memory_write	1
+../X-CUBE-AI/App/aiPbMemRWServices.c:59:6:aiPbCmdRWMemory	6

@@ -1,0 +1,10 @@
+../X-CUBE-AI/App/aiTestUtility.h:142:20:_mon_alloc_reset	8	static
+../X-CUBE-AI/App/aiTestUtility.h:358:26:cyclesCounterEnd	24	static
+../X-CUBE-AI/App/aiSystemPerformance.c:256:15:user_observer_cb	32	static
+../X-CUBE-AI/App/aiSystemPerformance.c:217:13:aiDeInit	8	static
+../X-CUBE-AI/App/aiSystemPerformance.c:594:12:aiTestConsole	16	static
+../X-CUBE-AI/App/aiSystemPerformance.c:280:6:aiObserverInit	88	static
+../X-CUBE-AI/App/aiSystemPerformance.c:319:6:aiObserverDone	176	static
+../X-CUBE-AI/App/aiSystemPerformance.c:628:5:aiSystemPerformanceInit	56	static
+../X-CUBE-AI/App/aiSystemPerformance.c:647:5:aiSystemPerformanceProcess	152	static,ignoring_inline_asm
+../X-CUBE-AI/App/aiSystemPerformance.c:724:6:aiSystemPerformanceDeInit	8	static

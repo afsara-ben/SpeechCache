@@ -1,0 +1,130 @@
+Neural Network Tools for STM32 family v1.7.0 (stm.ai v8.1.0-19520)
+Created date          : 2023-08-21 15:37:15
+Parameters            : generate --name myrnn -m C:/Users/xl6yq/Desktop/workspace-stm32/stm32-models/rnn_model.h5 --type keras --compression none --verbosity 1 --workspace C:\Users\xl6yq\AppData\Local\Temp\mxAI_workspace995212284277006593889607598279247 --output C:\Users\xl6yq\.stm32cubemx\network_output --allocate-inputs --series stm32f7 --allocate-outputs
+
+Exec/report summary (generate)
+-----------------------------------------------------------------------------------------------------------
+model file         :   C:\Users\xl6yq\Desktop\workspace-stm32\stm32-models\rnn_model.h5                    
+type               :   keras                                                                               
+c_name             :   myrnn                                                                               
+compression        :   none                                                                                
+options            :   allocate-inputs, allocate-outputs                                                   
+optimization       :   balanced                                                                            
+target/series      :   stm32f7                                                                             
+workspace dir      :   C:\Users\xl6yq\AppData\Local\Temp\mxAI_workspace995212284277006593889607598279247   
+output dir         :   C:\Users\xl6yq\.stm32cubemx\network_output                                          
+model_fmt          :   float                                                                               
+model_name         :   rnn_model                                                                           
+model_hash         :   2da2352378255dbe313336302d9998d5                                                    
+params #           :   4,289 items (16.75 KiB)                                                             
+-----------------------------------------------------------------------------------------------------------
+input 1/1          :   'input_0' (domain:activations/**default**)                                          
+                   :   50 items, 200 B, ai_float, float, (1,50,1)                                          
+output 1/1         :   'dense' (domain:activations/**default**)                                            
+                   :   1 items, 4 B, ai_float, float, (1,1)                                                
+macc               :   211,275                                                                             
+weights (ro)       :   17,156 B (16.75 KiB) (1 segment)                                                    
+activations (rw)   :   968 B (968 B) (1 segment) *                                                         
+ram (total)        :   968 B (968 B) = 968 + 0 + 0                                                         
+-----------------------------------------------------------------------------------------------------------
+(*) 'input'/'output' buffers can be used from the activations buffer
+
+Model name - rnn_model ['input_0'] ['dense']
+------ ----------------------------- ------------------------ -------------- --------- -------------- --- ------------------ ------------------- ----------------------------- 
+m_id   layer (type,original)         oshape                   param/size          macc   connected to   | c_size             c_macc              c_type                        
+------ ----------------------------- ------------------------ -------------- --------- -------------- --- ------------------ ------------------- ----------------------------- 
+0      input_0 (Input, None)         [b:None,h:50,h:50,c:1]                                             | +16,896(+100.0%)   +211,200(+100.0%)   rnn_of32[0]                   
+       simple_rnn (RNN, SimpleRNN)   [b:None,c:64]            4,224/16,896     211,200        input_0   | -16,896(-100.0%)   -211,200(-100.0%)   
+------ ----------------------------- ------------------------ -------------- --------- -------------- --- ------------------ ------------------- ----------------------------- 
+1      dense_dense (Dense, Dense)    [b:None,c:1]             65/260                65     simple_rnn   |                    +10(+15.4%)         dense_of32/nl_of32[o][1, 2]   
+       dense (Nonlinearity, Dense)   [b:None,c:1]                                   10    dense_dense   |                    -10(-100.0%)        
+------ ----------------------------- ------------------------ -------------- --------- -------------- --- ------------------ ------------------- ----------------------------- 
+model/c-model: macc=211,275/211,275  weights=17,156/17,156  activations=--/968 io=--/0
+
+
+
+Generated C-graph summary
+------------------------------------------------------------------------------------------------------------------------
+model name            : rnn_model
+c-name                : myrnn
+c-node #              : 3
+c-array #             : 10
+activations size      : 968 (1 segment)
+weights size          : 17156 (1 segment)
+macc                  : 211275
+inputs                : ['input_0_output']
+outputs               : ['dense_output']
+
+C-Arrays (10)
+------ ---------------------- ------------ ------------------------- ------------- --------- --------- 
+c_id   name (*_array)         item/size    domain/mem-pool           c-type        fmt       comment   
+------ ---------------------- ------------ ------------------------- ------------- --------- --------- 
+0      simple_rnn_scratch0    128/512      activations/**default**   float         float32             
+1      input_0_output         50/200       activations/**default**   float         float32   /input    
+2      simple_rnn_output      64/256       activations/**default**   float         float32             
+3      dense_dense_output     1/4          activations/**default**   float         float32             
+4      dense_output           1/4          activations/**default**   float         float32   /output   
+5      simple_rnn_kernel      64/256       weights/weights           const float   float32             
+6      simple_rnn_recurrent   4096/16384   weights/weights           const float   float32             
+7      simple_rnn_bias        64/256       weights/weights           const float   float32             
+8      dense_dense_weights    64/256       weights/weights           const float   float32             
+9      dense_dense_bias       1/4          weights/weights           const float   float32             
+------ ---------------------- ------------ ------------------------- ------------- --------- --------- 
+
+C-Layers (3)
+------ ---------------- ---- ------------ -------- ------- ------------------------- ------------------ 
+c_id   name (*_layer)   id   layer_type   macc     rom     tensors                   shape (array id)   
+------ ---------------- ---- ------------ -------- ------- ------------------------- ------------------ 
+0      simple_rnn       0    rnn          211200   16896   I: input_0_output         (1,50,1) (1)       
+                                                           S: simple_rnn_scratch0                       
+                                                           W: simple_rnn_kernel      (1,64) (5)         
+                                                           W: simple_rnn_recurrent   (64,64) (6)        
+                                                           W: simple_rnn_bias        (64,) (7)          
+                                                           O: simple_rnn_output      (1,64) (2)         
+------ ---------------- ---- ------------ -------- ------- ------------------------- ------------------ 
+1      dense_dense      1    dense        65       260     I: simple_rnn_output      (1,64) (2)         
+                                                           W: dense_dense_weights    (64,1) (8)         
+                                                           W: dense_dense_bias       (1,) (9)           
+                                                           O: dense_dense_output     (1,1) (3)          
+------ ---------------- ---- ------------ -------- ------- ------------------------- ------------------ 
+2      dense            1    nl           10       0       I: dense_dense_output     (1,1) (3)          
+                                                           O: dense_output           (1,1) (4)          
+------ ---------------- ---- ------------ -------- ------- ------------------------- ------------------ 
+
+
+
+Number of operations per c-layer
+------- ------ --------------------- --------- -------------- -------- ---------- 
+c_id    m_id   name (type)                 #op           type   #param   sparsity 
+------- ------ --------------------- --------- -------------- -------- ---------- 
+0       0      simple_rnn (rnn)        211,200   smul_f32_f32    4,224     0.0002 
+1       1      dense_dense (dense)          65   smul_f32_f32       65     0.0000 
+2       1      dense (nl)                   10     op_f32_f32          
+------- ------ --------------------- --------- -------------- -------- ---------- 
+total                                  211,275                   4,289     0.0002 
+
+Number of operation types
+---------------- --------- ----------- 
+operation type           #           % 
+---------------- --------- ----------- 
+smul_f32_f32       211,265      100.0% 
+op_f32_f32              10        0.0% 
+
+Complexity report (model)
+------ ------------- ------------------------- ------------------------- -------- 
+m_id   name          c_macc                    c_rom                     c_id     
+------ ------------- ------------------------- ------------------------- -------- 
+0      input_0       |||||||||||||||| 100.0%   ||||||||||||||||  98.5%   [0]      
+1      dense_dense   |                  0.0%   |                  1.5%   [1, 2]   
+------ ------------- ------------------------- ------------------------- -------- 
+macc=211,275 weights=17,156 act=968 ram_io=0
+
+Generated files (7)
+---------------------------------------------------------------- 
+C:\Users\xl6yq\.stm32cubemx\network_output\myrnn_config.h        
+C:\Users\xl6yq\.stm32cubemx\network_output\myrnn.h               
+C:\Users\xl6yq\.stm32cubemx\network_output\myrnn.c               
+C:\Users\xl6yq\.stm32cubemx\network_output\myrnn_data_params.h   
+C:\Users\xl6yq\.stm32cubemx\network_output\myrnn_data_params.c   
+C:\Users\xl6yq\.stm32cubemx\network_output\myrnn_data.h          
+C:\Users\xl6yq\.stm32cubemx\network_output\myrnn_data.c          

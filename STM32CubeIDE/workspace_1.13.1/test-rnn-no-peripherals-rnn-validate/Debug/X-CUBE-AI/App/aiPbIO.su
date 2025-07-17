@@ -1,0 +1,7 @@
+../X-CUBE-AI/App/aiPbIO.c:64:13:write_callback	24	static
+../X-CUBE-AI/App/aiPbIO.c:109:13:read_callback	40	static
+../X-CUBE-AI/App/aiPbIO.c:57:6:pb_io_flush_ostream	8	static
+../X-CUBE-AI/App/aiPbIO.c:103:6:pb_io_flush_istream	0	static
+../X-CUBE-AI/App/aiPbIO.c:142:14:pb_io_ostream	8	static
+../X-CUBE-AI/App/aiPbIO.c:148:14:pb_io_istream	0	static
+../X-CUBE-AI/App/aiPbIO.c:154:5:pb_io_stream_init	8	static

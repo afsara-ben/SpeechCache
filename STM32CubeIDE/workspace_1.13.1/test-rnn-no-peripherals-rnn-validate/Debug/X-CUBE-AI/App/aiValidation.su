@@ -1,0 +1,16 @@
+../X-CUBE-AI/App/aiValidation.c:824:6:aiPbCmdSysInfo	40	static
+../X-CUBE-AI/App/aiValidation.c:233:13:encode_mempool_to_tensor_desc	16	static
+../X-CUBE-AI/App/aiValidation.c:191:13:fill_tensor_desc_msg	32	static
+../X-CUBE-AI/App/aiValidation.c:223:13:encode_ai_buffer_to_tensor_desc	24	static
+../X-CUBE-AI/App/aiValidation.c:149:15:_get_buffer_size	16	static
+../X-CUBE-AI/App/aiTestUtility.h:341:22:cyclesCounterStart	8	static
+../X-CUBE-AI/App/aiTestUtility.h:358:26:cyclesCounterEnd	24	static
+../X-CUBE-AI/App/aiValidation.c:677:36:aiExecCtx	24	static
+../X-CUBE-AI/App/aiValidation.c:371:13:send_ai_io_tensor.isra	72	static
+../X-CUBE-AI/App/aiValidation.c:488:15:aiOnExecNode_cb	112	static
+../X-CUBE-AI/App/aiValidation.c:841:6:aiPbCmdNNInfo	136	static
+../X-CUBE-AI/App/aiValidation.c:422:6:_print_debug	20	static
+../X-CUBE-AI/App/aiValidation.c:856:6:aiPbCmdNNRun	176	static
+../X-CUBE-AI/App/aiValidation.c:963:5:aiValidationInit	32	static
+../X-CUBE-AI/App/aiValidation.c:977:5:aiValidationProcess	32	static
+../X-CUBE-AI/App/aiValidation.c:1012:6:aiValidationDeInit	8	static

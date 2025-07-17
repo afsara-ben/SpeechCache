@@ -1,0 +1,17 @@
+../X-CUBE-AI/App/aiPbMgr.c:177:6:encode_uint32	5
+../X-CUBE-AI/App/aiPbMgr.c:259:6:encode_data_cb	2
+../X-CUBE-AI/App/aiPbMgr.c:228:13:decode_data_cb	5
+../X-CUBE-AI/App/aiPbMgr.c:58:6:aiPbMgrInit	4
+../X-CUBE-AI/App/aiPbMgr.c:117:10:aiPbTensorFormat	5
+../X-CUBE-AI/App/aiPbMgr.c:157:6:aiPbStrCopy	4
+../X-CUBE-AI/App/aiPbMgr.c:200:6:encode_tensor_desc	4
+../X-CUBE-AI/App/aiPbMgr.c:278:6:aiPbMgrSendResp	1
+../X-CUBE-AI/App/aiPbMgr.c:84:5:aiPbMgrWaitAndProcess	5
+../X-CUBE-AI/App/aiPbMgr.c:287:6:aiPbMgrSendAck	1
+../X-CUBE-AI/App/aiPbMgr.c:296:6:aiPbMgrWaitAck	1
+../X-CUBE-AI/App/aiPbMgr.c:305:6:aiPbMgrSendLog	1
+../X-CUBE-AI/App/aiPbMgr.c:327:6:aiPbMgrSendLogV2	2
+../X-CUBE-AI/App/aiPbMgr.c:351:6:aiPbMgrReceiveData	1
+../X-CUBE-AI/App/aiPbMgr.c:368:6:aiPbMgrSendData	2
+../X-CUBE-AI/App/aiPbMgr.c:386:6:aiPbMgrSendOperator	4
+../X-CUBE-AI/App/aiPbMgr.c:451:6:aiPbCmdSync	1

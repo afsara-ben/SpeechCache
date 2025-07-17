@@ -1,0 +1,39 @@
+
+Results for "network", 16 inferences @216MHz/216MHz (complexity: 23932020 MACC)
+ duration     : 143.824 ms (average)
+ CPU cycles   : 31066092 (average)
+ CPU Workload : 14% (duty cycle = 1s)
+ cycles/MACC  : 1.29 (average for all layers)
+ used stack   : 936 bytes
+ used heap    : 0:0 0:0 (req:allocated,req:released) max=0 cur=0 (cfg=3)
+ observer res : 360 bytes used from the heap (21 c-nodes)
+
+ Inference time by c-node
+  kernel  : 143.803ms (time passed in the c-kernel fcts)
+  user    : 0.011ms (time passed in the user cb)
+
+ c_id  type                id       time (ms)
+ ---------------------------------------------------
+ 0     TRANSPOSE           0          2.079   1.45 %
+ 1     CONV2D              1         10.067   7.00 %
+ 2     PAD                 2          0.130   0.09 %
+ 3     CONV2D              2          7.290   5.07 %
+ 4     CONV2D              3         20.878  14.52 %
+ 5     PAD                 4          0.233   0.16 %
+ 6     CONV2D              4          3.609   2.51 %
+ 7     CONV2D              5         15.568  10.83 %
+ 8     PAD                 6          0.124   0.09 %
+ 9     CONV2D              6          7.166   4.98 %
+ 10    CONV2D              7         27.984  19.46 %
+ 11    PAD                 8          0.124   0.09 %
+ 12    CONV2D              8          1.816   1.26 %
+ 13    CONV2D              9         14.479  10.07 %
+ 14    PAD                 10         0.070   0.05 %
+ 15    CONV2D              10         3.616   2.52 %
+ 16    CONV2D              11        27.295  18.98 %
+ 17    POOL                12         1.223   0.85 %
+ 18    DENSE               13         0.029   0.02 %
+ 19    NL                  14         0.014   0.01 %
+ 20    NL                  15         0.001   0.00 %
+ -------------------------------------------------
+                                    143.803 ms

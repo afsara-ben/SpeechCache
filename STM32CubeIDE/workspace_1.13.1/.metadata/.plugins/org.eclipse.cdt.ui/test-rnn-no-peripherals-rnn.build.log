@@ -1,0 +1,10 @@
+17:55:24 **** Incremental Build of configuration Debug for project test-rnn-no-peripherals-rnn ****
+make -j8 all 
+arm-none-eabi-size   test-rnn-no-peripherals-rnn.elf 
+   text	   data	    bss	    dec	    hex	filename
+  68620	   1864	   6064	  76548	  12b04	test-rnn-no-peripherals-rnn.elf
+Finished building: default.size.stdout
+ 
+
+17:55:24 Build Finished. 0 errors, 0 warnings. (took 305ms)
+

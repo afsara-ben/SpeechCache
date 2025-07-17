@@ -1,0 +1,5 @@
+../X-CUBE-AI/App/aiPbMemRWServices.c:24:5:bsdChecksum	8	static
+../X-CUBE-AI/App/aiPbMemRWServices.c:39:6:memory_valid_addr_range	0	static
+../X-CUBE-AI/App/aiPbMemRWServices.c:44:6:memory_checksum	8	static
+../X-CUBE-AI/App/aiPbMemRWServices.c:52:6:memory_write	16	static
+../X-CUBE-AI/App/aiPbMemRWServices.c:59:6:aiPbCmdRWMemory	64	static
